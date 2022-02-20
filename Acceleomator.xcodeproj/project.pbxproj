@@ -16,6 +16,8 @@
 		EE50ADA827C293C300FB1538 /* AcceleomatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE50ADA727C293C300FB1538 /* AcceleomatorTests.swift */; };
 		EE50ADB227C293C300FB1538 /* AcceleomatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE50ADB127C293C300FB1538 /* AcceleomatorUITests.swift */; };
 		EE50ADB427C293C300FB1538 /* AcceleomatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE50ADB327C293C300FB1538 /* AcceleomatorUITestsLaunchTests.swift */; };
+		EE50ADC127C2959700FB1538 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE50ADC027C2959700FB1538 /* GameViewController.swift */; };
+		EE50ADC327C295A900FB1538 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE50ADC227C295A900FB1538 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		EE50ADAD27C293C300FB1538 /* AcceleomatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcceleomatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE50ADB127C293C300FB1538 /* AcceleomatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceleomatorUITests.swift; sourceTree = "<group>"; };
 		EE50ADB327C293C300FB1538 /* AcceleomatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceleomatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE50ADC027C2959700FB1538 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EE50ADC227C295A900FB1538 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				EE50AD9027C293C100FB1538 /* AppDelegate.swift */,
 				EE50AD9227C293C100FB1538 /* SceneDelegate.swift */,
 				EE50AD9427C293C100FB1538 /* ViewController.swift */,
+				EE50ADC027C2959700FB1538 /* GameViewController.swift */,
+				EE50ADC227C295A900FB1538 /* ResultViewController.swift */,
 				EE50AD9627C293C100FB1538 /* Main.storyboard */,
 				EE50AD9927C293C300FB1538 /* Assets.xcassets */,
 				EE50AD9B27C293C300FB1538 /* LaunchScreen.storyboard */,
@@ -258,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE50ADC327C295A900FB1538 /* ResultViewController.swift in Sources */,
+				EE50ADC127C2959700FB1538 /* GameViewController.swift in Sources */,
 				EE50AD9527C293C100FB1538 /* ViewController.swift in Sources */,
 				EE50AD9127C293C100FB1538 /* AppDelegate.swift in Sources */,
 				EE50AD9327C293C100FB1538 /* SceneDelegate.swift in Sources */,
@@ -447,6 +455,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,6 +484,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
